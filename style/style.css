@@ -18,3 +18,34 @@ body{
     background-repeat: repeat;
     background-size: cover;
 }
+
+.banner-content{
+    width: 998px;
+    min-height: 582px;
+    border: 2px solid red;
+    margin: 24px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-content h1,p{
+    text-align: center;
+    margin-top: 24px;
+}
+
+.banner-img{
+    margin: 0;
+    width: 240.28px;
+    height: 240px;
+    border: 2px solid red;
+}
+
+.btn{
+    padding: 14px 16px 14px 16px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    margin-top: 32px;
+}
