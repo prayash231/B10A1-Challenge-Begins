@@ -63,7 +63,7 @@ body{
 .motive-container{
     width: 1140px;
     height: 1395px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 74px auto;
     border-radius: 16px;
     background-color: rgba(13, 19, 33, 0.02);
@@ -73,12 +73,28 @@ body{
     width: 946px;
     height: 1235px;
     /* border: 2px solid red; */
-    margin: 80px auto;
+    margin: 0 auto;
     /* padding: 80px 97px 80px 97px; */
 }
 
 .motive-text h2,p{
     text-align: center;
+}
+
+.motive-text h2{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    padding-top: 60px;
+}
+
+.motive-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: 0.7;
 }
 
 .motive-step{
@@ -98,6 +114,31 @@ body{
     padding: 12px 20px 12px 20px;
     font-family: "Azeret Mono", monospace;
     margin-top: 32px;
+    border: 1px solid rgb(13, 19, 33);
+}
+
+.btn-primary > a{
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    text-decoration: none;
+}
+
+.motive-step > .context-primary > h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.motive-step > .context-primary > p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 26px;
 }
 
 .two{
