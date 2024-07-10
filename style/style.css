@@ -9,7 +9,7 @@
 body{
     font-family: "Azeret Mono", monospace;
 }
-
+/* banner-styles starts here */
 .banner-container{
     width: 1440px;
     min-height: 652px;
@@ -50,4 +50,53 @@ body{
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     margin-top: 32px;
+    font-family: "Azeret Mono", monospace;
 }
+/* motive styles starts here */
+.motive-container{
+    width: 1140px;
+    height: 1395px;
+    border: 2px solid red;
+    margin: 74px auto;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+
+.motive-content{
+    width: 946px;
+    height: 1235px;
+    /* border: 2px solid red; */
+    margin: 80px auto;
+    /* padding: 80px 97px 80px 97px; */
+}
+
+.motive-text h2,p{
+    text-align: center;
+}
+
+.motive-step{
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    width: 946px;
+    height: 336px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 48px; */
+    margin-top: 48px;
+}
+
+.motive-step > .context-primary .btn-primary{
+    padding: 12px 20px 12px 20px;
+    font-family: "Azeret Mono", monospace;
+    margin-top: 32px;
+}
+
+.two{
+    flex-direction: row-reverse;
+    /* justify-content: flex-end; */
+    gap: 32px;
+    /* margin: 0 auto; */
+}
+
