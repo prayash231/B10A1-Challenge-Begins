@@ -112,7 +112,7 @@ body{
 .youtube-video-container{
     width: 1140px;
     height: 614px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     border: 1px solid rgba(13, 19, 33, 0.2);
     border-radius: 16px;
     margin-top: 48px;
@@ -123,4 +123,131 @@ body{
     border-radius: 16px;
     display: block;
 }
+
+/* current target section style starts here */
+
+.current-target{
+    width: 1140px;
+    height: 460px;
+    border: 2px solid red;
+    margin: 150px auto;
+}
+
+.learning-resources{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.documentation-container{
+    width: 364px;
+    height: 250px;
+    border: 2px solid red;
+    border-radius: 16px;
+    margin-top: 48px;
+    /* margin: 0 auto; */
+    /* padding: 40px; */
+}
+
+.bg-color-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.bg-color-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.bg-color-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.documentation h2{
+    margin-top: 24px;
+    /* font-family: "Azeret Mono", monospace; */
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.documentation p{
+    text-align: left;
+    margin-top: 8px;
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.documentation a{
+    color: black;
+    margin-top: 24px;
+    display: block;
+    color: rgb(13, 19, 33);
+    /* font-family: Azeret Mono; */
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.documentation{
+    /* border: 2px solid yellow; */
+    width: 284px;
+    height: 219px;
+    margin: 30px auto;
+    /* padding-top: 40px; */
+    /* text-align: center; */
+}
+
+/* support section starts here */
+
+/* .support{
+    width: 1140px;
+    height: 313px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.support h2{
+    margin-top: 64px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.input-items{
+    width: 684px;
+    height: 57px;
+    margin: 24px auto;
+    display: flex;
+    gap: 16px;
+}
+
+input[type="text"]{
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+}
+
+input[type="submit"]{
+    width: 120px;
+    height: 57px; 
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border: none;  
+} */
 
