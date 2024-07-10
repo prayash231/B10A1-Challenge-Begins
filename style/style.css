@@ -199,7 +199,7 @@ body{
 
 /* support section starts here */
 
-/* .support{
+.support{
     width: 1140px;
     height: 313px;
     border: 2px solid red;
@@ -231,6 +231,8 @@ body{
     height: 57px;
     margin: 24px auto;
     display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
     gap: 16px;
 }
 
@@ -241,6 +243,9 @@ input[type="text"]{
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
     padding-left: 15px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 input[type="submit"]{
@@ -249,5 +254,8 @@ input[type="submit"]{
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
     border: none;  
-} */
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
 
