@@ -44,13 +44,19 @@ body{
     border: 2px solid red;
 }
 
-.btn{
+.banner-btn{
     padding: 14px 16px 14px 16px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     margin-top: 32px;
-    font-family: "Azeret Mono", monospace;
+    font-family: "Azeret Mono", monospace;   
+}
+.banner-btn > a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
 }
 /* motive styles starts here */
 .motive-container{
@@ -203,7 +209,7 @@ body{
     width: 1140px;
     height: 313px;
     border: 2px solid red;
-    margin: 0 auto;
+    margin: 50px auto;
     background-image: url(../assets/handshake.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -257,5 +263,23 @@ input[type="submit"]{
     color: rgb(13, 19, 33);
     font-size: 20px;
     font-weight: 600;
+}
+
+/* footer section starts here */
+
+.footer-items{
+    /* width: 1440px; */
+    height: 100px;
+    border: 2px solid red;
+    border-radius: 16px;
+    background-color: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-links{
+    display: flex;
+    gap: 24px;
 }
 
